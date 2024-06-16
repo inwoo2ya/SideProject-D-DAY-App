@@ -5,7 +5,7 @@ const StyledPage = styled.div`
   }
 `;
 
-export default function Index() {
+export function Index() {
   /*
    * Replace the elements below with your own.
    *
@@ -18,7 +18,7 @@ export default function Index() {
           <div id="welcome">
             <h1>
               <span> Hello there, </span>
-              Welcome nx-boilerplate 👋
+              Welcome client 👋
             </h1>
           </div>
 
@@ -402,7 +402,7 @@ export default function Index() {
                 </svg>
                 View project details
               </summary>
-              <pre>nx show project nx-boilerplate --web</pre>
+              <pre>nx show project client --web</pre>
             </details>
             <details>
               <summary>
@@ -472,3 +472,5 @@ export default function Index() {
     </StyledPage>
   );
 }
+
+export default Index;
