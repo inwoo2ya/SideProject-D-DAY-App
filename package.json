@@ -2,7 +2,9 @@
   "name": "@nx-boilerplate/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "serve": "npx nx run-many -t dev"
+  },
   "private": true,
   "dependencies": {
     "@emotion/react": "11.11.1",
@@ -19,7 +21,8 @@
     "recoil": "^0.7.7",
     "ts-pattern": "^5.2.0",
     "tslib": "^2.3.0",
-    "typeorm": "^0.3.20"
+    "typeorm": "^0.3.20",
+    "zx": "^8.1.2"
   },
   "devDependencies": {
     "@nestjs/schematics": "^10.0.1",
