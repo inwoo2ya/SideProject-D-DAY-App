@@ -25,8 +25,7 @@ TechSpec
 
 ### etc
 
-- vite
-- webpack
+- bundler : vite, webpack
 - jest
 - ts-pattern
 - fxts
