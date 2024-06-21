@@ -10,6 +10,10 @@
 
 TechSpec
 
+### Mobile
+
+- Framework: React-native
+
 ### FE
 
 - Framework : Next,React
