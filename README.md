@@ -13,7 +13,6 @@ TechSpec
 ### Mobile
 
 - Framework: React-native
-- emulator: expo
 
 ### FE
 
