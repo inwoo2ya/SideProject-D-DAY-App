@@ -1,0 +1,13 @@
+{
+  "name": "d-day-mobile",
+  "$schema": "../../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/d-day/mobile/src",
+  "projectType": "application",
+  "tags": [],
+  "// targets": "to see all targets run: nx show project d-day-mobile --web",
+  "targets": {
+    "android": {
+      "executor": "@nx/react-native:run-android"
+    }
+  }
+}

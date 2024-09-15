@@ -41,7 +41,8 @@
       "plugin": "@nx/jest/plugin",
       "options": {
         "targetName": "test"
-      }
+      },
+      "exclude": ["apps/d-day-app-api-e2e/**/*", "apps/d-day/api-e2e/**/*"]
     },
     {
       "plugin": "@nx/webpack/plugin",
